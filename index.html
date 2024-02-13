@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <main class="container">
+        <div class="claculatorDiv" id="claculatorDiv">
+            <h1>Height Timer</h1>
+            <div class="timerDiv">
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>:
+                <span id="milliseconds">00</span>
+            </div>
+            <div class="infoDiv">
+                <p class="height">Height: ≈ <span id="height">0</span> meters</p>
+            </div>
+            <div class="btnDiv">
+                <button id="startBtn">Start</button>
+                <button id="stopBtn" class="hidden">Stop</button>
+                <button id="resetBtn" class="hidden">Reset</button>
+            </div>
+        </div>
+        <div class="howItWorksDiv hidden" id="howItWorksDiv">
+            <h1>How to Use the Height Timer</h1>
+            <p>
+            <ul class="instrutionsList">
+                <li>Start Timer: Drop the object and click "Start" to begin timing.</li>
+                <li>Stop Timer: Stop the timer when the object lands or you hear it collide with the ground.
+                </li>
+                <li>Calculate Height: We use a simplified Newtonian kinematic equation:<br>
+                    <h2>h = 1/2gt²</h2><br>
+                    Where:<br>
+                    <ul>
+
+                        <li>h = Height (in meters),</li>
+                        <li>g = 9.81 m/s² (acceleration due to gravity),</li>
+                        <li>t = Time (in seconds).</li>
+                    </ul>
+                </li>
+            </ul>
+            </p>
+        </div>
+        <p id="howBtn">How it works?</p>
+    </main>
+</body>
+
+</html>
