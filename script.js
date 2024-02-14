@@ -45,6 +45,7 @@ function resetTimer() {
     minutes = 0;
     seconds = 0;
     tens = 0;
+    heightEl.textContent = "0"
     updateTimerDisplay();
 }
 
