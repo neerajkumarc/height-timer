@@ -56,6 +56,18 @@ button {
     justify-content: center;
 }
 
+#startBtn {
+    background-color: green;
+}
+
+#stopBtn {
+    background-color: red;
+}
+
+#resetBtn {
+    background-color: blue;
+}
+
 .instrutionsList>li {
     margin-bottom: 1rem;
 }
