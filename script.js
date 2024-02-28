@@ -71,7 +71,7 @@ resetBtn.addEventListener("click", () => {
 
 function calculateHeight(totalSec) {
     let height = 0.5 * 9.81 * (totalSec * totalSec);
-    return height;
+    return height.toFixed(2);
 }
 
 howBtn.addEventListener("click", () => {
